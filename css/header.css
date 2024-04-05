@@ -140,9 +140,12 @@ h1{
 /*parte who we are*/
 .who-principal{
   padding: 5px;
+  display: flex;
+}
+
+.who-parrafo{
   text-align: center;
-  align-items: center;
-  justify-content: center;
+  padding: 10px;
 }
 
 .who-imagenes{
@@ -150,20 +153,22 @@ h1{
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .who-imagenes img{
   border-radius: 3px;
-  margin: 20px 40px;
 }
 
 .siembra{
- height: 330px;
- width: 3000;
+  height: 330px;
+  width: 3000;
 }
 .sgs {
-  height: 100px;
+  height: 95px;
+  margin-top: 10px;
 }
 
 .video{
@@ -188,10 +193,12 @@ h1{
   margin: 10px 0;
   text-decoration: none;
   padding: 20px;
+  transition: font-size 0.3s;
   
 }
 .anchors a:hover{
   color: #c6a734;
+  font-size: 1.05rem;
 }
 .map {
   width: 100%; /* Ocupa la otra mitad del ancho de la pantalla */
@@ -303,8 +310,8 @@ iframe{
   }
 
   .logo-dos img {
-    max-height: 35px;
-    margin-left: 50px;
+    max-height: 38px;
+    margin-left: 54px;
   }
 
   .mapamundi img{
@@ -321,13 +328,14 @@ iframe{
     margin-top: 0px;
     margin-left: 0px;
   }
+  .who-principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
   .who-parrafo{
     text-align: center;
-  }
-
-  .who-imagenes img{
-    margin: 20px 0px;
   }
   .who-img-uno .siembra{
     width: 100%;
@@ -336,7 +344,6 @@ iframe{
     text-align: center;
     align-items: center;
   }
-
 }
 
 @media (max-width: 768px) {
