@@ -15,11 +15,6 @@ header{
   font-family: 'Tilt Neon', sans-serif;
 }
 
-footer{
-  font-family: 'Tilt Neon', sans-serif;
-  background-color: #FFF
-}
-
 .fixed-header {
   position: fixed;
   top: 0;
@@ -78,7 +73,6 @@ footer{
 .logo-dos img {
   max-height: 70px;
 }
-
 /* fin del header*/
 
 .mapamundi{
@@ -106,31 +100,31 @@ h1{
   height: 90vh;
   width: 100%;
 }
-/*parte de productos*/
+
 
 
 .container {
   display: flex;
-  flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea si no caben */
-  justify-content: center; /* Centra los elementos horizontalmente */
+  flex-wrap: wrap; 
+  justify-content: center; 
   margin-bottom: 70px;
   
 }
 
 .image-container {
-  margin: 30px; /* Ajusta el margen entre las imágenes y los contenedores */
-  text-align: center; /* Centra el texto dentro del contenedor */
+  margin: 30px; 
+  text-align: center; 
   width: 150px;
 }
 
 .image-container img {
-  width: 150px; /* Hace que la imagen no sea más ancha que su contenedor */
+  width: 150px; 
   height: 150px;
 }
 
 .image-container h1 {
-  width: 100%; /* Hace que el h1 ocupe el ancho completo de su contenedor */
-  margin: 10px 0; /* Ajusta el margen superior e inferior del h1 */
+  width: 100%; 
+  margin: 10px 0; 
 }
 
 .image-container p{
@@ -177,7 +171,6 @@ h1{
 
 
 /*parte contacto*/
-
 .container-tres {
   display: flex;
   align-items: center;
@@ -211,7 +204,6 @@ iframe{
 }
 
   /*inicio footer*/
-
   .foot{
     margin-top: 50px;
     text-align: center;
@@ -220,6 +212,10 @@ iframe{
     line-height: 1.5;
   }
 
+  footer{
+    font-family: 'Tilt Neon', sans-serif;
+    background-color: #FFF
+  }
   /*fin footer*/
 
   .whatsapp{
