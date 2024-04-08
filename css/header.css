@@ -47,17 +47,17 @@ header{
 }
 
 .nav-links a:hover {
-  font-size: 20px;
+  font-size: 19px;
   color: #c6a734;
 }
 
 .logo-dos a:hover img{
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 0.5s ease-out;
 }
 
 .logo-uno a:hover img{
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 0.5s ease-out;
 }
 
@@ -77,6 +77,11 @@ header{
 
 .mapamundi{
   margin-top: 110px;
+}
+
+.mapamundi img:hover {
+  transform: scale(1.05);
+  transition: 1s ease-out;
 }
 
 h1{
