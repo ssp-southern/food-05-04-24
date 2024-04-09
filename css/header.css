@@ -214,7 +214,7 @@ iframe{
     text-align: center;
     font-size: 13px;
     color: #213d19;
-    line-height: 1.5;
+    line-height: 1.8;
   }
 
   footer{
@@ -288,7 +288,6 @@ iframe{
 
     .navbar {
       flex-direction: column;
-      align-items: flex-start;
       text-align: center;
       align-items: center;
   }
@@ -312,7 +311,7 @@ iframe{
 
   .logo-dos img {
     max-height: 38px;
-    margin-left: 54px;
+    margin-left: 54px; 
   }
 
   .mapamundi{
