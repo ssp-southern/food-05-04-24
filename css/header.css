@@ -179,7 +179,7 @@ h1{
   justify-content: center;
 }
 .anchors {
-  width: 50%; /* Ocupa la mitad del ancho de la pantalla */
+  width: 50%;
   text-align: center;
 }
 .anchors a {
@@ -196,7 +196,7 @@ h1{
   font-size: 1.05rem;
 }
 .map {
-  width: 100%; /* Ocupa la otra mitad del ancho de la pantalla */
+  width: 100%;
   padding: 20px;
   align-items: center;
 }
@@ -249,12 +249,12 @@ iframe{
 @media screen and (max-width: 800px) {
   .container-tres {
     display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea si no caben */
+    flex-wrap: wrap;
     width: 100%;
   }
   
   .anchors {
-    width: 100%; /* Ocupa el 100% del ancho en pantallas pequeñas */
+    width: 100%;
     text-align: center;
   }
   .anchors a {
@@ -268,7 +268,7 @@ iframe{
   }
   
   .map {
-    width: 100%; /* Ocupa el 100% del ancho en pantallas pequeñas */
+    width: 100%;
   }
 
   iframe{
