@@ -106,8 +106,6 @@ h1{
   width: 100%;
 }
 
-
-
 .container {
   display: flex;
   flex-wrap: wrap; 
@@ -173,7 +171,6 @@ h1{
 .video{
   margin-bottom: 90px;
 }
-
 
 /*parte contacto*/
 .container-tres {
